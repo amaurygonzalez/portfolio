@@ -3,8 +3,6 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -41,6 +39,8 @@ group :development, :test do
   gem 'faker'
   gem 'coveralls', require: false
   gem 'haml_lint', require: false
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3'
 end
 
 group :development do
